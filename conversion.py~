@@ -29,16 +29,8 @@ while i < len(valeur):
 print("=== En base 10, la valeur vaut :", valBase10, "===")
 
 # conversion en base de destination
-valTemp = int(valeur)
-expoMax = 0
-while(True):
-    if(baseDest**expoMax) > valBase10:
-        # print("    Casse car", baseDest, "^", expoMax, "=", baseDest**expoMax)
-        expoMax -= 1
-        break
-    else:
-        expoMax += 1
-print(expoMax)
+expo
 
 while(valTemp != 0):
-    
+    temp = int(valBase10/baseDest)
+    reste = valTemp % baseDest
