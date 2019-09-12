@@ -18,4 +18,3 @@ i = 0
 while i < len(valeur):
     print("Valeur au rang", i, ":", valeur[int(i)-1])
     i = i + 1
-
