@@ -32,13 +32,12 @@ print("=== En base 10, la valeur vaut :", valBase10, "===")
 valTemp = int(valeur)
 expoMax = 0
 while(True):
-    if(baseDest**expoMax) > valBase10:
+    if(baseDest**(expoMax+1)) > valBase10:
         # print("    Casse car", baseDest, "^", expoMax, "=", baseDest**expoMax)
-        expoMax -= 1
         break
     else:
         expoMax += 1
 print(expoMax)
 
-while(valTemp != 0):
+# while(valTemp != 0):
     
